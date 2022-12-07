@@ -10,13 +10,10 @@ Array.prototype.negativenumber=function(number)
           arr.push(number[a]);
         }
       }
-    console.log(arr);
+    return arr;
     // console.log(arr);
   }
-let arr=new Array();
-arr2=[-9,-10,3,5,7];
-arr.negativenumber(arr2);
-console.log(arr2);
+
 String.prototype.countOfvowels=function(word)
   {
     let regex=["a","e","i","o","u"];
@@ -30,6 +27,6 @@ String.prototype.countOfvowels=function(word)
           
         }
       }
-    console.log(count);
+    return count;
   }
 
