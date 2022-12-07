@@ -1,18 +1,5 @@
 
-const Person=function(firstName,lastName,color,favoritenumber)
-  {
-    this.firstName=firstName;
-    this.lastName=lastName;
-    this.color=color;
-    this.favoritenumber=favoritenumber;
-  }
 
-const person1=new Person("krishna","priya","pink",4)
-const person2=new Person("jaya","haritha","red",6);
-Person.prototype.multiply=function(number)
-  {
-    console.log(number*this.favoritenumber)
-  }
 Array.prototype.negativenumber=function(number)
   {
     let arr=[];
@@ -46,4 +33,3 @@ String.prototype.countOfvowels=function(word)
     console.log(count);
   }
 let sent=new String();
-sent.countOfvowels("Welcome to js")
