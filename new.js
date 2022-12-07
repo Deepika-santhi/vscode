@@ -32,4 +32,4 @@ String.prototype.countOfvowels=function(word)
       }
     console.log(count);
   }
-let sent=new String();
+
