@@ -1,7 +1,8 @@
 
 
-Array.prototype.negativenumber=function(number)
+Array.prototype.negativenumber=function()
   {
+    let number=this
     let arr=[];
     for(let a=0;a<number.length;a++)
       {
@@ -14,8 +15,9 @@ Array.prototype.negativenumber=function(number)
     // console.log(arr);
   }
 
-String.prototype.countOfvowels=function(word)
+String.prototype.countOfvowels=function()
   {
+    let word=this;
     let regex=["a","e","i","o","u"];
     word=word.toLowerCase();
     let count=0;
