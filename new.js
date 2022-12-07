@@ -12,7 +12,7 @@ Array.prototype.negativenumber=function()
         }
       }
     return arr;
-    // console.log(arr);
+    
   }
 
 String.prototype.countOfvowels=function()
